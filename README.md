@@ -10,3 +10,6 @@ ambxst splash-screen while booting. Will only work on systems running a **U**nif
 4. `sudo mkinitcpio -P`
 
 *name depends on your kernel type
+
+Preview:
+![splash-screen](splash-arch.bmp)
