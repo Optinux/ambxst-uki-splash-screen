@@ -1,2 +1,10 @@
 # ambxst-uki-splash-screen
-ambxst splash screen while booting !! ONLY UKI SUPPORT IN THIS REPO !!
+ambxst splash-screen while booting. Will only work on systems running a **U**nified **K**ernel **I**mage. It should also work an 'regular# systems, but you can ask google for a tutorial :)
+
+1. download splash-arch.bmp
+2. add this to `/etc/mkinitcpio.d/linux[-zen].preset`  :
+
+`default_options="--splash /usr/share/systemd/bootctl/splash-arch.bmp"`
+
+3. move the splash-arch.bmp to said location
+4. `sudo mkinitcpio -P`
